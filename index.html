@@ -4,17 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=h1, initial-scale=1.0" />
     <link rel="stylesheet" href="src/styles.css" />
-    <title>Document</title>
+    <title>AI Poem Generator</title>
   </head>
   <body>
-    <h1>Welcome to the AI poem generator</h1>
+    <header>
+      <h1>AI Poem Generator</h1>
+    </header>
+
+    <main>
+      <form>
+        <input
+          type="text"
+          placeholder="Enter a topic"
+          autofocus
+          required
+          autocomplete="off"
+        />
+        <input type="submit" />
+      </form>
+      <div>Poem goes here</div>
+    </main>
 
     <footer>
       This AI Generator was coded by Danielle Casa and is open-sourced on
       <a href="https://github.com/DCClara/AI-poem-generator" target="_blank"
         >Github</a
-      > and is hosted on <a href="aipoem-generator.netlify.app">Netlify</a>. 
-      
+      >
+      and is hosted on
+      <a href="https://aipoem-generator.netlify.app/">Netlify</a>.
     </footer>
     <script src="src/index.js"></script>
   </body>
