@@ -4,35 +4,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=h1, initial-scale=1.0" />
     <link rel="stylesheet" href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI Poem Generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>AI Poem Generator</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter a topic"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>Poem goes here</div>
-    </main>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter a topic"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          In icy stream's fierce rush, <br />
+          Polar bear, a fleeting hush, <br />
+          Silent grace, a dance untaught, <br />
+          In frigid depths, a fish, it's caught.
+        </div>
+      </main>
 
-    <footer>
-      This AI Generator was coded by Danielle Casa and is open-sourced on
-      <a href="https://github.com/DCClara/AI-poem-generator" target="_blank"
-        >Github</a
-      >
-      and is hosted on
-      <a href="https://aipoem-generator.netlify.app/">Netlify</a>.
-    </footer>
+      <footer>
+        This AI Generator was coded by Danielle Casa and is open-sourced on
+        <a href="https://github.com/DCClara/AI-poem-generator" target="_blank"
+          >Github</a
+        >
+        and is hosted on
+        <a href="https://aipoem-generator.netlify.app/">Netlify</a>.
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
