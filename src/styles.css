@@ -1,18 +1,16 @@
 body {
   background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/108/132/original/pexels-lukas-952476.jpg?1703288036);
-  background-repeat: no-repeat;
   background-size: cover;
-  background-position: top;
   font-family: "Poppins", sans-serif;
   color: white;
 }
 
 .container {
-  margin: 20px auto;
-  max-width: 600px;
+  margin: 85px auto;
+  max-width: 900px;
   background-color: rgba(0, 0, 0, 0.6);
   border-radius: 10px;
-  padding: 50px;
+  padding: 80px;
 }
 
 h1 {
@@ -22,7 +20,7 @@ h1 {
 }
 
 form {
-  padding: 30px;
+  padding: 20px;
   border-radius: 10px;
   display: flex;
   margin-bottom: 30px;
@@ -38,7 +36,8 @@ form {
   margin-left: 10px;
   color: white;
   background-color: #f0b534;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: bold;
   border: none;
   width: 150px;
   border-radius: 5px;
@@ -53,6 +52,9 @@ form {
   line-height: 2;
   border-radius: 5px;
 }
+.recipe strong {
+  color: crimson;
+}
 
 footer {
   text-align: center;
@@ -65,5 +67,5 @@ footer {
 }
 a {
   color: yellow;
-  text-decoration: dashed;
+  
 }
