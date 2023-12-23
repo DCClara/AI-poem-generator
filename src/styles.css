@@ -1,34 +1,34 @@
-.container {
-  margin: 120px auto;
-  max-width: 600px;
+body {
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/108/132/original/pexels-lukas-952476.jpg?1703288036);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  font-family: "Poppins", sans-serif;
+  color: white;
 }
 
-body {
-  background-color: #fffffb;
-  font-family: "Poppins", sans-serif;
+.container {
+  margin: 20px auto;
+  max-width: 600px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  padding: 50px;
 }
-a {
-  color: #805fd4;
-  text-decoration: dashed;
-}
+
 h1 {
   text-align: center;
   font-size: 36px;
   line-height: 1.5;
-  color: indigo;
 }
 
 form {
   padding: 30px;
-  background-color: white;
-  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
   border-radius: 10px;
   display: flex;
   margin-bottom: 30px;
 }
 .instructions {
   padding: 16px;
-  border: 1px solid rgba(39, 33, 66, 0.5);
   width: 80%;
   font-size: 16px;
   line-height: 20px;
@@ -36,8 +36,8 @@ form {
 }
 .submit-button {
   margin-left: 10px;
-  color: #f9f7fe;
-  background: #805fd4;
+  color: white;
+  background-color: #f0b534;
   font-size: 16px;
   border: none;
   width: 150px;
@@ -47,16 +47,23 @@ form {
 
 .poem {
   font-size: 16px;
+  color: black;
   background-color: white;
   padding: 20px;
   line-height: 2;
-  border-left: 3px solid #805fd4;
-  box-shadow: 0px 4px 30px 0 rgba(39, 33, 66, 0.03);
   border-radius: 5px;
 }
 
 footer {
   text-align: center;
-  font-size: 14px;
-  margin-top: 30px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  padding: 15px;
+  max-width: 900px;
+  font-size: 16px;
+  margin: 0 auto;
+}
+a {
+  color: yellow;
+  text-decoration: dashed;
 }
